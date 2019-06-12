@@ -1,0 +1,41 @@
+#hero {
+    height: 90px;
+    width: 20px;
+    position: absolute;
+    top: 410px;    
+}
+#background{
+    background: #f8b9d9;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#laser{
+    background: red;
+    width: 5px;
+    height: 20px; 
+    position: absolute;
+}
+#enemy{
+    background-image: url("img/enemy_lips_black.png");
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.container_flex{
+    display: flex;
+    justify-content: space-between;
+
+}  
+.container__game_board{
+    display: flex;
+    justify-content: space-between;
+} 
+.container__game_rules h3 {
+    padding: 50px 0 20px 0;
+    font-size:50px;
+}
+
